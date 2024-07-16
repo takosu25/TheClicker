@@ -1,14 +1,14 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CoinManager
 {
-    // Œ»İŠ‚µ‚Ä‚¢‚éƒRƒCƒ“”
+    // ç¾åœ¨æ‰€æŒã—ã¦ã„ã‚‹ã‚³ã‚¤ãƒ³æ•°
     private int currentCoin = 0;
 
     /// <summary>
-    /// ƒRƒCƒ“‚ğ’Ç‰Á‚·‚é
+    /// ã‚³ã‚¤ãƒ³ã‚’è¿½åŠ ã™ã‚‹
     /// </summary>
     public void AddCoin(int add)
     {
@@ -16,7 +16,7 @@ public class CoinManager
     }
 
     /// <summary>
-    /// ƒRƒCƒ“‚ğæ“¾‚·‚é
+    /// ã‚³ã‚¤ãƒ³ã‚’å–å¾—ã™ã‚‹
     /// </summary>
     public int GetCoin() => currentCoin;
 }

@@ -1,20 +1,20 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    // ‚¨‹à‚ğŠÇ—‚·‚éƒ}ƒl[ƒWƒƒ[
+    // ãŠé‡‘ã‚’ç®¡ç†ã™ã‚‹ãƒãƒãƒ¼ã‚¸ãƒ£ãƒ¼
     private CoinManager coinManager;
 
     void Start()
     {
-        // ‰Šú‰»
+        // åˆæœŸåŒ–
         coinManager = new CoinManager();
     }
 
     /// <summary>
-    /// CoinManager“à‚ÉƒRƒCƒ“‚ğ’Ç‰Á‚·‚é
+    /// CoinManagerå†…ã«ã‚³ã‚¤ãƒ³ã‚’è¿½åŠ ã™ã‚‹
     /// </summary>
     public void AddCoin(int add)
     {
